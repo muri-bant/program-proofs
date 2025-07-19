@@ -43,7 +43,6 @@ method MaxProduct(a: int, b: int) returns (max: int, pro: int)
 // required at compile-time as ghost.
 
 // Hint: A ghost is not allowed on right side of assignment
-// Hint: There are 5 ghosts in total
 
 predicate IsEven(x: int) {
     x % 2 == 0
