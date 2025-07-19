@@ -11,6 +11,11 @@ This repo contains numerous programs and examples
 and also exercises to reinforce one's understanding of
 Dafny and verified programming.
 
+- [Problem sets](./ps/)
+- [Examples](./src/examples/)
+- [Algorithms](./src/algorithms/)
+- [Notes](./notes/)
+
 ## Installation and Usage
 
 - Install the .NET SDK (required for Dafny tool)
