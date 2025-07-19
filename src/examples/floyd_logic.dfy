@@ -16,3 +16,9 @@ method MyMethod(x: int) returns (y: int)
     assert 12 <= y <= 110;
     // 2: (0 < x <= 50) && (2 <= a <= 100) && (12 <= y <= 110) (final state)
 }
+
+// Hoare triple notation {{ P }} S {{ Q }}
+// P is the pre-state of the statement S
+// S is a non-terminating and non-crashing statement that will lead state to Q
+// Q is the post-state, after executing the statement S
+// For examples, {{ x == 5 }} x := x * 10 {{ x == 50 }}
