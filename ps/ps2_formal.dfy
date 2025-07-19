@@ -21,7 +21,7 @@ method SecondProblem(x: int) returns (y: int)
 }
 
 
-// Find the weakest precondition
+// 3. Find the weakest precondition
 
 /*
     {{ ? }} x, y := x * 2, (x * 3) % 10 {{ x - y = 5 }}
