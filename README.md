@@ -3,9 +3,8 @@
 <img src="./img/dafny-logo.jpg" width="200">
 
 This project explores the use of formal verification
-methods using the [Dafny programming language](https://dafny.org/) and
-the creation of formally verified programs -- from
-simple examples to complex algorithms.
+methods using the [Dafny programming language](https://dafny.org/),
+which was developed at [Microsoft Research](https://www.microsoft.com/en-us/research/project/dafny-a-language-and-program-verifier-for-functional-correctness/).
 
 This repo contains numerous programs and examples
 and also exercises to reinforce one's understanding of
