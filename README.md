@@ -1,5 +1,7 @@
 # Formal Verification of Computer Programs
 
+![Dafny Logo](./img/dafny-logo.jpg)
+
 This project explores the use of formal verification
 methods using the [Dafny programming language](https://dafny.org/) and
 the creation of formally verified programs -- from
