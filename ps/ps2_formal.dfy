@@ -19,3 +19,17 @@ method SecondProblem(x: int) returns (y: int)
 {
     // Write the statement S here
 }
+
+
+// Find the weakest precondition
+
+/*
+    {{ ? }} x, y := x * 2, (x * 3) % 10 {{ x - y = 5 }}
+*/
+method ThirdProblem(x: int) returns (y: int)
+    requires // What is the precondition?
+    ensures x - y == 5
+{
+    var y;
+    x, y := x * 2, (x * 3) % 10;
+}
