@@ -20,6 +20,10 @@ Dafny and verified programming.
 Most of the time, you won't be required to compile the code.
 You only need to see the verification results.
 
+## Notes
+
+1. [Weakest preconditions and strongest postconditions](./notes/wp_and_sp.md)
+
 ## References and Tutorials
 
 - [Getting started with Dafny: A Guide](https://dafny.org/latest/OnlineTutorial/guide)
