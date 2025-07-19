@@ -18,6 +18,7 @@ Dafny and verified programming.
 
 ## Installation and Usage
 
+- `git clone` this repo.
 - Install the .NET SDK (required for Dafny tool)
 - Install the [VS Code extension for Dafny](https://marketplace.visualstudio.com/items?itemName=dafny-lang.ide-vscode) (recommended)
 - Open a Dafny file (with .dfy extension) and you will be prompted to install latest version of Dafny. Click Accept.
